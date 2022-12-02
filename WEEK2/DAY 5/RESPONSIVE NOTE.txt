@@ -1,0 +1,13 @@
+    STEPS TO CREATING A RESPONSIVE WEBPAGE
+
+        1 put your( <meta name="viewport" content="width=device-width, initial-scale=1
+                    shrink-to-fit=no">)in your head section.
+
+       * create your parent tag and the children tag
+        *display-flex the parent tag
+        *flex-wrap:wrap the parent tag (THis enables the containers under the
+        parent to be able to line up vertically even after the flex)
+
+        2 use media query to set the min width for responsiveness to take place under css
+        3 under the media query, call the child class and
+         tell it how much width it'll take from the parent on each size.

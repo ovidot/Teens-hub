@@ -1,0 +1,44 @@
+
+		body{
+			font-family:"Courier New",serif;
+			font-size:20px;
+			}		
+		h1{
+			font-family:Verdana,sans-serif;
+			font-size:3em;
+			}
+		p{
+			font-style:italic;
+			font-weight:bold;
+			font-size:20px;
+			text-transform:uppercase;
+			font-family:Verdana,sans-serif;
+			}
+		.class1{
+			
+			background-color:blue;
+			}
+			
+		#test{
+			
+			border:solid 2px black;
+			background-color:green;
+			}
+		.home{
+			
+			color:brown;
+			}
+		a{
+			color:black;
+			font-family:sans-serif;	
+			text-transform:capitalize;
+			text-decoration:none;	
+			}
+			
+		#1{
+			color:brown;
+			}
+		a{
+			text-transform:uppercase;
+			text-decoration:none;	
+			}

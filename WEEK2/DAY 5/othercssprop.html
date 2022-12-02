@@ -1,0 +1,153 @@
+<!doctype html>
+	<html>
+		<head>
+			<title> Other Css Properties & pseudo classes</title>
+			<style type="text/css">
+				p{
+					line-height:20px;
+				}
+				
+				footer{
+					background-color:orange;
+					height:100px;
+					line-height:100px;
+					text-align:center;
+				}
+				h2{
+					text-shadow:2px 3px 6px brown, 2px 3px 1px blue;
+				}
+				.box{
+					border:1px solid #000;
+					width:300px;
+					height:300px;
+					margin:40px 0;
+					padding:20px;
+					box-shadow:4px 5px 6px orange;
+				}
+				.picshadow{
+					width:300px;
+					height:300px;
+					margin:40px 0;
+					box-shadow:4px 5px 6px orange;
+					border-radius:20px;
+					border:1px solid black;
+				}
+				p::first-line{
+					color:brown;
+					font-weight:bold;
+				}
+				p::first-letter{
+					font-size:32px;
+				}
+				
+				#menu{
+					list-style-type:none;	
+				}
+				#menu li{
+					margin-buttom:;
+				}
+				#menu li a::before{
+					content:"<<";
+				}
+				#menu li a::after{
+					content:">>";
+				}
+				#menu li a{
+					text-decoration:none;
+					color:black;
+				}
+				h2::before{
+					content:"***";
+				}
+				h2::after{
+					content:"***";
+				}
+				p::selection{
+					background-color:#fff123;
+					color:white;
+				}
+				#menu li a:hover{
+					background-color:skyblue;
+					font-family:cursive;
+					color:white;
+					border-radius:20px;
+						
+				}
+				div a:active{
+					border:2px solid #000;
+					border-radius:20px;
+					padding:10px;
+				}
+				div a:hover{
+					text-decoration:none;
+					background-color:brown;
+					color: #fff
+					padding:10px;
+					color:white;
+				}
+			</style>
+		</head>
+		<body>
+			<ul id="menu">
+				<li><a href="Home">Home</a></li>
+				<li><a href="Home">Who are we</a></li>
+				<li><a href="Home">Help</a></li>
+			</ul>
+			<div>
+				<a href="Home">Tourism</a>
+				<a href="Home">Register</a>
+			</div>
+			<h2> Introduction to CSS</h2>
+				<p> Notice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixedNotice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixedNotice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixedNotice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixedNotice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixedNotice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 	
+				menu becomes fixed
+				Notice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixedNotice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixed
+				</p>
+				<h2> General class</h2>
+				<p>Notice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixedNotice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixed</p>
+				
+				<div class="box">	
+				Notice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixedNotice the black background before the 
+				sticky menu, it ensures that we scroll the 
+				page up to the point specified before the 
+				menu becomes fixed
+				</div>
+				<img src="images/client-2.jpg" alt="photo" class="picshadow">
+				<footer>
+				<span> Copyright &copy;2022. All rights reserved.</span>
+				<span>
+				</footer>
+		</body>
+	</html>
+	
